@@ -1,0 +1,94 @@
+/* CSS de la página "en construcción" */
+
+/*body, html {
+    background: url("../PNG/UnderConstruction.jpg") no-repeat center center fixed;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+*/
+
+/* aplica fuente a todo el html */
+html * {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* eliminar el estilo default de los links (subrayado) solo se usa !important si no queda otra */
+a {
+    text-decoration: none !important;
+}
+
+/* items navbar junto al logo */
+.nav-item {
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px;
+    margin-left:100px;
+    margin-right: 100px;
+    font-size:22px;
+    color: rgb(26,45,94);
+    font-weight:600;
+    vertical-align: middle;
+}
+/* iconos de los items de la navbar */
+.material-symbols-outlined {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+p {
+    text-align: center;
+}
+/* logo construcción */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 26%;
+}
+/* cuadro trans. y texto bajo logo construcción */
+.contact-block {
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding:20px;
+    padding-bottom: 40px;
+}
+.contact {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.button-box {
+    font-size: 20px;
+    font-weight: 600;
+    color:white;
+    text-align: center;
+    background-color: rgb(255, 140, 0);
+    border-radius: 5px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+.button-box:hover {
+    background-color: white;
+    color: orange;
+    transition: 0.6s;
+}
+
+/* pie de página*/
+.footer {
+    font-size: 16px;
+    color: white;
+}
+/* en pantallas pequeñas, logo se centra */
+@media screen and (max-width: 374px) {
+    site-logo {
+        float:unset;
+    }
+}
+
