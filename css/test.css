@@ -76,7 +76,7 @@ p, h2 {
   }
 
   @media (max-width: 750px) {
-      #background-video { display: none; }
+      #background-video { display: ; }
       body {
         background: url("../PNG/176930\ \(540p\).mp4") no-repeat;
         background-size: cover;
