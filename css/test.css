@@ -74,9 +74,9 @@ p, h2 {
     bottom: 0;
     z-index: -1;
   }
-
+/*
   @media (max-width: 750px) {
-      #background-video { display: ; }
+      #background-video { display: none; }
       body {
         background: url("../PNG/176930\ \(540p\).mp4") no-repeat;
         background-size: cover;
