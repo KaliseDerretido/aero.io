@@ -78,6 +78,12 @@ p {
     background-color: white;
     color: orange;
     transition: 0.6s;
+    box-shadow:
+        0 0 10px rgb(255, 140, 0),
+        0 0 20px rgb(255, 140, 0),
+        0 0 40px rgb(255, 140, 0),
+        0 0 80px rgb(255, 140, 0);
+    letter-spacing: 1px;
 }
 
 /* pie de página*/
